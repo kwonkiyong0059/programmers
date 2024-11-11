@@ -3,7 +3,7 @@ class Solution {
         String answer = "";
         String temp = Integer.toString(age);
         for(int i =0; i<temp.length(); i++){
-            answer += (char) ((char) temp.charAt(i)+49);
+            answer += (char) (temp.charAt(i) - '0' + 'a');
         }
         
         return answer;
