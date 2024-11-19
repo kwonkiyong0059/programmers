@@ -6,8 +6,14 @@ public class Solution {
         String str = sc.next();
         int n = sc.nextInt();
         
-        for(int i=1; i<=n; i++){
-            System.out.print(str);
-        }
+//         StringBuilder answer = new StringBuilder();
+        
+//         for(int i=1; i<=n; i++){
+//             answer.append(str);
+//         }
+        
+//         System.out.print(answer.toString());
+        
+        System.out.print(str.repeat(n));
     }
 }
