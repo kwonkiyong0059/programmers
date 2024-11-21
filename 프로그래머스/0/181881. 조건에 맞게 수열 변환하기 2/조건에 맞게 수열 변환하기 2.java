@@ -21,14 +21,14 @@ class Solution {
                 }
             }
             
-            answer++;
-            
             if(isSame){
                 break;
             }
             
+            answer++;
+            
         }
         
-        return answer-1;
+        return answer;
     }
 }
