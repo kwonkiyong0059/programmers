@@ -6,7 +6,7 @@ class Solution {
         int num2 = Integer.parseInt(bin2, 2);
         
         int sum = num1+num2;
-        answer = Integer.toBinaryString(sum);
+        answer = Integer.toString(sum,2);
         
         return answer;
     }
