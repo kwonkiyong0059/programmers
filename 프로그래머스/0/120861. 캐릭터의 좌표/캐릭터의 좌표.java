@@ -1,8 +1,8 @@
 class Solution {
     public int[] solution(String[] keyinput, int[] board) {
         int[] answer = new int[]{0, 0};
-        int a = (board[0]-1)/2;
-        int b = (board[1]-1)/2;
+        int a = (board[0])/2;
+        int b = (board[1])/2;
         
         for(String input: keyinput){
             switch(input){
