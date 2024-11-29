@@ -9,11 +9,9 @@ class Solution {
                 int A = Math.abs(answer[j]-n);
                 int B = Math.abs(answer[j+1]-n);
                 
-                if(A>B){
+                if(A>B || (A==B && answer[j]<answer[j+1])){
                     swap(answer, j, j+1);
-                } else if(A==B && answer[j]<answer[j+1]){
-                    swap(answer,j, j+1);
-                }        
+                }       
             }
         }
         
