@@ -17,12 +17,7 @@ class Solution {
                 answer.add(i);
             }
         }
-        if (answer.isEmpty()) {
-            return new int[] {-1};
-        }
         
-        return answer.stream()
-            .mapToInt(Integer::intValue)
-            .toArray();
+        return answer.isEmpty()? new int[] {-1} :answer.stream().mapToInt(Integer::intValue).toArray();
     }
 }
