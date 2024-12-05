@@ -10,6 +10,6 @@ class Solution {
         }
         
         
-        return x%sum==0? true:false;
+        return x%sum==0;
     }
 }
