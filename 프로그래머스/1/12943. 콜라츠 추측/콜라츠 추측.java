@@ -1,13 +1,16 @@
 class Solution {
-    public int solution(long num) {
+    public int solution(int num) {
 //num을 long타입 변환해야 한다.
+        
+        long numLong = (long) num;
+        
         int answer = 0;
         
-        while (num != 1) {
-            if (num % 2 == 0) {
-                num /= 2; 
+        while (numLong != 1) {
+            if (numLong % 2 == 0) {
+                numLong /= 2; 
             } else {
-                num = num * 3 + 1;
+                numLong = numLong * 3 + 1;
             }
             answer++;
 
