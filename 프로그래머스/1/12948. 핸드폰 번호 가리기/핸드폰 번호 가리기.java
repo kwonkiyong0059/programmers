@@ -10,8 +10,6 @@ class Solution {
             answer += "*";
         }
         
-        answer += x;
-        
-        return answer;
+        return answer+x;
     }
 }
