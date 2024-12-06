@@ -1,7 +1,8 @@
 class Solution {
     public int solution(long num) {
+//num을 long타입 변환해야 한다.
         int answer = 0;
-
+        
         while (num != 1) {
             if (num % 2 == 0) {
                 num /= 2; 
