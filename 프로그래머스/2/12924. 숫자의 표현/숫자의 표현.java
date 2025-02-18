@@ -8,3 +8,5 @@ class Solution {
    return answer;
     }
 }
+
+// 홀수 약수의 개수 = 연속된 자연수로 표현하는 방법의 개수
